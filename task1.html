@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="name" placeholder="Email">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" placeholder="Age">
+        <br><br>
+        <label>Class:</label>
+        <br>
+        <label for="cs">CS</label>
+        <input type="radio" value="cs" id="cs" name="class">
+        <br>
+        <label for="it">IT</label>
+        <input type="radio" value="it" id="it" name="class">
+        <br><br>
+        <label>Div:</label>
+        <br>
+        <label for="a">A</label>
+        <input type="radio" value="a" id="a" name="div">
+        <br>
+        <label for="b">B</label>
+        <input type="radio" value="b" id="b" name="div">
+        <br><br>
+        <label for="rollno">Roll No:</label>
+        <input type="text" id="rollno" placeholder="RollNo">
+        <br><br>
+        <button type="button" id="submitbtn">Submit</button>
+    </form>
+    <script>
+        const submit = () => {
+            alert("Your data have been submitted");
+        }
+        document.getElementById("submitbtn").addEventListener('click', submit);
+    </script>
+</body>
+</html>
