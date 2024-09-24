@@ -1,0 +1,21 @@
+.div2 ~ p{
+    color: orange;
+    background-color: black;
+}
+.div1{
+    width: 50vw;
+    height: 20vh;
+    background-color: green;
+}
+.childDiv1{
+    color: white;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+.div4{
+    color: green;
+    background-color: rgb(46, 45, 45);
+    width: 50rem;
+    height: 10rem;
+}
