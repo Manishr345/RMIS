@@ -1,0 +1,40 @@
+.div1{
+    width: 900px;
+    border: 2px solid black;
+    display: inline;
+    padding-right: 215px;
+}
+
+.inline{
+    display: inline;
+}
+
+.one{
+    display: contents;
+}
+
+.button{
+    box-shadow: 0px 2px 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    width: 130px;
+    height: 70px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.div2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    width: 900px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.btext{
+    color: blue;
+}
