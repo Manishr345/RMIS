@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+
+.navbar{
+    height: 70px;
+    display: flex;
+    top: 0;
+}
+
+.logo{
+    padding-left: 90px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navigation{
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+.indeng{
+    background-color: transparent;
+    border-radius: 15px;
+    width: 140px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.home{
+    margin-top: 80px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    margin-left: 95px;
+    padding-right: 50px;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.butt1{
+    margin-right: 8px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(248, 35, 35);
+    opacity: 0.5;
+    padding: 3px;
+    border-radius: 15px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    border: none;
+}
+
+.butt2{
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 15px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.right{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.panel{
+    display: flex;
+}
+
+.teeth{
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: rgba(49, 158, 225, 0.5);
+    width: 150px;
+    height: 200px;
+}
+
+.panellogo{
+    opacity: 1;
+    padding-left: 55px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.paneltext{
+    opacity: 1;
+    white-space: pre-line;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.price{
+    opacity: 1;
+    margin-left: 25px;
+    margin-right: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+.medical{
+    border-radius: 10px;
+    background-color: rgba(49, 158, 225, 0.5);
+    width: 150px;
+    height: 200px;
+}
+
+.moreinfo{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
